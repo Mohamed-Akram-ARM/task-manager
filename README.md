@@ -265,6 +265,3 @@ php artisan serve
 
 Mohamed Akram
 GitHub: https://github.com/Mohamed-Akram-ARM
-
-
-# task-manager
