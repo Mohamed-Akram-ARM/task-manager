@@ -5,6 +5,8 @@
 
 <div class="float-end">
   <form action="/logout"  ><button class=" btn btn-danger float-end"><i class="fa fa-user-plus"></i>logout</button></form>
+<a href="/register" class="btn btn-primary text-dark">Create account</a>
+  
 </div>
 
 

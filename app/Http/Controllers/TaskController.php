@@ -62,12 +62,12 @@ class TaskController extends Controller
         ]);
 
         $task= new Task();
-      //  $task->user_id = $request->user_id;
-         $task->user_id = Auth::id(); 
+      
+         $task->user_id = $request->user_id; 
         $task->title= $request->title;
         $task->description= $request->description;
         $task->status= $request->status;
-        dd($request->status);
+        //dd($request->status);
         $task->save();
 
         return redirect()->route('index');

@@ -1,4 +1,4 @@
-@extends('userlayout')
+@extends('admin.layout')
 
 @section('main-content')
 <div class="float-start">

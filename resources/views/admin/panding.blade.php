@@ -11,7 +11,7 @@
       <th scope="col">EMPLOEE NAME</th>
       <th scope="col">Email</th>
 
-      <th scope="col">START DATE</th>
+      
     </tr>
   </thead>
   
@@ -28,7 +28,7 @@
  
       <td>{{$user->name}}</td>
       <td>{{$user->email}}</td>
-      <td>{{$user->created_at}}</td>
+      
         @endif
          
     </tr>

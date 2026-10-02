@@ -12,7 +12,7 @@ class DashboardController extends Controller
     {
         $tasks = Task::all(); // get all tasks from database
 
-        return view('admin.dashboardt', compact('tasks'));
+        return view('admin.dashboart', compact('tasks'));
     }
     public function dashboard()
     {
